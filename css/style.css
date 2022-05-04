@@ -1,0 +1,60 @@
+#ul-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+
+}
+
+.main-section {
+    margin: 0, auto;
+    padding: 40px;
+}
+
+.image-block {
+    height: 150px;
+    margin-bottom: 30px;
+    width: 100%;
+
+
+}
+
+.btn {
+    background-color: rgba(44, 44, 235, 0.97);
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 9px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.btn:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+.list {
+    background-color: rgb(150, 166, 216);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 9px;
+
+
+
+
+}
+
+.list:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+.p-email {
+    margin-bottom: 10px;
+
+}
