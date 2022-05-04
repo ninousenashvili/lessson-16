@@ -44,6 +44,10 @@ function render() {
 
 }
 function errorender() {
+    let error = document.createElement('p');
+    error.textContent = 'Server error';
+
+    document.getElementById('main-section').appendChild(error);
 
 }
 
